@@ -86,8 +86,8 @@ async def on_message(message):
                 client.loop.create_task(channel.send("End of Turn "+ str(Turn)))
 
                 Turn = Turn + 1
-                
+
         fight(Player1, Player2)
 
 #replace '' with bot token
-client.run('OTE3MDAwNTMzNjU3NjY1NTY2.YayVTA.EtWNKJ0T3fG3jHGqVXosRBOEzgQ')
+client.run('')
